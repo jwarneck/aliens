@@ -1,12 +1,13 @@
-#import psycopg2
-#import psycopg2.extras
+import psycopg2
+import psycopg2.extras
 
 from flask import Flask, render_template, request
 app = Flask(__name__)
 
 
 def connectToDB():
-  connectionString = 'dbname=music user=postgres password=kirbyk9 host=localhost'
+  #connectionString= 'dbname=music user=postgres password=kirbyk9 host=localhost'
+  connectionString = 'dbname=aliens user=postgres password=1967Gt500 host=localhost'
   try:
     return psycopg2.connect(connectionString)
   except:
@@ -22,9 +23,43 @@ def report():
 
 @app.route('/report2', methods=['POST'])
 def report2():
+  
   abduction = {'firstname': request.form['firstname'],
-               'lastname': request.form['lastname']}
-  return render_template('report2.html', abduction = abduction)
+               'lastname': request.form['lastname'], 'month': request.form['month'],
+               'day': request.form['day'], 'year': request.form['year'],
+               'city': request.form['city'], 'state': request.form['state'],
+               'scary': request.form['scary'], 'doing': request.form['doing']}
+  appearance = request.form.getlist('appearance')
+  
+  appearance_string = ""
+  ship_string= ""
+  for value in appearance:
+    appearance_string += value + ","
+  if len(appearance) > 0:
+    appearance_string = appearance_string[: -1]
+  
+  ship_string = request.form.getlist('ship')[0]
+  #print(request.form.getlist('appearance'))
+  conn = connectToDB()
+  cur = conn.cursor()
+  query = 'INSERT INTO abductions (firstname, lastname, city, state, month, day, year, scary, appearance, ship) VALUES( %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);'
+  data = (abduction['firstname'], abduction['lastname'], abduction['city'], abduction['state'], abduction['month'], abduction['day'], abduction['year'], abduction['scary'], appearance_string, ship_string)
+  cur.execute(query, data)
+  conn.commit()
+  
+  return render_template('report2.html', abduction = abduction, appearance = appearance, ship=ship_string)
+
+@app.route('/list_abductions')
+def abductions():
+  
+  conn = connectToDB() #psycopg2.connect() "dbname='abductions' user='postgres' password='1967Gt500'")
+  cur = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
+  query = 'SELECT * FROM abductions;'
+  cur.execute(query)
+  results = cur.fetchall()
+  for result in results:
+    result["appearance"] = result["appearance"].split(",")
+  return render_template('list_abductions.html', results=results)
 
 @app.route('/simple')
 def simple():
@@ -87,6 +122,8 @@ def showChartForms():
        (request.form['artist'], request.form['album'], request.form['rank']) )
     except:
       print("ERROR inserting into albums")
+      print("Tried: INSERT INTO albums (artist, name, rank) VALUES ('%s', '%s', '%s')") 
+      conn.commit()
 
   try:
     cur.execute("select artist, name from albums")

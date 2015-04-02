@@ -8,8 +8,18 @@
 					<tr><td>Last Name</td><td><input type="text" id="lastname" name="lastname" /></td></tr>
 					<tr><td>Date Abducted</td><td><input type="number" name="month" min="1" max="12" step="1" value="1" size="3"/>
 					<input type="number" name="day" min="1" max="31" step="1" value="1" size="3"/>
-					<input type="number" name="year" min="2009" max="2014" step="1" value="2011" size="4"/></td></tr>
+					<input type="number" name="year" min="1995" max="2015" step="1" value="2015" size="4"/></td></tr>
 					
+					
+					<!-- <tr><td>Time of Day</td><td> 
+					
+					<select time="time">
+					<option>Early Morning (0300 hrs- 0700 hrs)</option>
+					<option>Morning (0700 hrs - 1200hrs)</option>
+					<option>Afternoon (1200 hrs - 1600 hrs)</option>
+					<option>Evening (1600 hrs - 2000 hrs)</option>
+					<option>Night (2000 hrs - 0300 hrs)</option>
+					</select></td></tr> -->
 					
 					<tr><td>Location (city)</td><td><input type="text" name="city" id="city"/> 
 					
@@ -24,10 +34,17 @@
 					<option>VA</option>
 					</select></td></tr>
 					
+					
+					
+					<tr><td>What were you doing?</td><td><input type="text" id="doing" name="doing"/></td></tr>
+					
 					<tr><td>How Scary?</td><td>not scary <input type="range" name="scary" min="1" max="10" step="1" value="5"/>scary</td></tr>
 					<tr><td>Appearance</td><td>&nbsp;</td></tr>
-					<tr><td><input type="checkbox" name="bald" value="checked" /> bald</td><td><input type="checkbox" name="almond" value="checked" /> almond eyes</td></tr>
-					<tr><td><input type="checkbox" name="blue" value="checked" /> blue</td><td><input type="checkbox" name="fingers" value="checked" /> long fingers</td></tr>
+					<tr><td><input type="checkbox" name="appearance" value="bald" /> bald</td><td><input type="checkbox" name="appearance" value="almond eyes" /> almond eyes</td></tr>
+					<tr><td><input type="checkbox" name="appearance" value="blue" /> blue</td><td><input type="checkbox" name="appearance" value="long fingers" /> long fingers</td></tr>
+					<tr><td>Ship</td><td>&nbsp;</td></tr>
+					<tr><td><input type="checkbox" name="ship" value="Flying Saucer" /> Flying Saucer</td><td><input type="checkbox" name="ship" value="Rocket" /> Rocket</td></tr>
+					<tr><td><input type="checkbox" name="ship" value="Triangular" /> Triangular</td><td><input type="checkbox" name="ship" value="Orb of Light" /> Orb of Light</td></tr>
 					<tr><td>&nbsp;</td><td><input type="submit" value="Report Abduction" /></td></tr>
 					</table>
 					

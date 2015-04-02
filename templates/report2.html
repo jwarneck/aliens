@@ -2,5 +2,23 @@
 
 {% block content %}
 <h1>Thanks for Reporting an Abduction, {{abduction.firstname}} {{abduction.lastname}}</h1>
+<p></p>
+<p><h4>Abduction Date:</h4> {{abduction.month}}/{{abduction.day}}/{{abduction.year}}</p>
+<!-- <h4>Time of Day:</h4>
+<p>{{abduction.time}}</p> -->
+<p><h4>Abduction Location:</h4> {{abduction.city}}, {{abduction.state}}</p>
+<p></p>
+<p><h4>What were you doing?</h4> {{abduction.doing}}</p>
+<p><h4>Scary level:</h4> {{abduction.scary}}</p>
+<h4>Appearance: </h4>
+    {% for item in appearance %}
+        <li>{{item}}</li>
+    {% endfor%}
+<p></p>
+<h4>Ship:</h4>
+    {% for thing in ship %}
+        <li>{{thing}}</li>
+    {% endfor%}
+
 
 {% endblock %}

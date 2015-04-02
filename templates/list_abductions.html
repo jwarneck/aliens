@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block content %}
+{% for result in results %}
+     <table>
+        <tr><td>Name</td><td>{{result.firstname}} {{result.lastname}}</td></tr>
+        <tr><td>Location</td><td>{{result.city}}, {{result.state}}</td></tr>
+        <tr><td>Date</td><td>{{result.month}}/{{result.day}}/{{result.year}}</td></tr>
+        <tr><td>Scary</td><td>{{result.scary}}</td></tr>
+        <tr><td>Appearance</td><td>{% for thing in result.appearance %}
+                                            <li>{{thing}}</li>
+                                            {% endfor %}</td></tr>
+        <tr><td>Ship</td><td>{{result.ship}}</td></tr>
+    </table>
+{% endfor %}
+
+  
+{% endblock %}

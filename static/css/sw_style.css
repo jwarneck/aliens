@@ -1,0 +1,193 @@
+.gce-page-list .gce-list .gce-list-title, .site-type_magazine .taxonomy-description h1,
+.site-type_magazine .taxonomy-description h1 a, .ui-tabs ul.ui-tabs-nav li a,
+.ui-tabs ul.ui-tabs-nav li a:focus, .ui-tabs ul.ui-tabs-nav li a:hover, a, a:visited, body.site-special-scheme_resources #content .cs-featuredpost h4.widgettitle,
+body.site-special-scheme_resources #content .featuredpost h4.widgettitle,
+body.site-type_home #sidebar .widget .rss-date, h2, h2 a, h2 a:focus, h2 a:hover, h2 a:visited, h4 {
+    color: #002b5a
+}
+
+#global-header, #header #cse-search-box input#s, #header #subnav,
+#header #subnav li a, #header .searchform input.s, #header .searchsubmit,
+#inner #umw-connect #umw-connect-teaser h3, #submit, #submit:focus, #submit:hover, #subnav li.right a, #subnav li.right a:focus, #subnav li.right a:hover, #umw-footer-widgets h4, #umw-nav, #umw-nav li a, .enews #subbutton,
+.enews #subbutton:focus, .enews #subbutton:hover, .entry-content table th, .entry-content table th a, .reply a, .reply a:focus, .reply a:hover, .reply a:visited, .searchsubmit, .searchsubmit:focus, .searchsubmit:hover, .site-type_home #home-top .widget_sp_image .widget_sp_image-description,
+.site-type_home #home-top .widget_sp_image .widget_sp_image-description .widgettitle,
+.site-type_home #home-top .widget_sp_image .widget_sp_image-description .widgettitle a,
+.site-type_home #home-top .widget_text .textwidget, .ui-tabs .more-link,
+.ui-tabs h2, .ui-tabs h2 a, .ui-tabs h2 a:focus, .ui-tabs h2 a:hover, .ui-tabs h2 a:visited, .ui-tabs ul.ui-tabs-nav li.ui-tabs-selected a, body .gce-widget-grid .gce-calendar td.gce-today,
+div.gform_footer input.button, div.gform_footer input.button:focus, div.gform_footer input.button:hover {
+    color: #fff
+}
+
+#header #subnav .current-cat a, #header #subnav .current-menu-item a,
+#header #subnav .current_page_item a, #header #subnav li a:active, #header #subnav li a:focus, #header #subnav li a:hover, #header #subnav li li a, #header #subnav li li a:active, #header #subnav li li a:focus, #header #subnav li li a:hover, #header #subnav li li a:link, #header #subnav li li a:visited, #nav .current_page_item a, #sidebar .widget .menu .current-menu-item a,
+#sidebar h4.widgettitle a, #title a, #title a:hover #title a:focus, #umw-magazine-featured-top h4.widgettitle, #umw-nav .current-cat a,
+#umw-nav .current-menu-item a, #umw-nav .current_page_item a, #umw-nav li a:active, #umw-nav li a:focus, #umw-nav li a:hover, #umw-nav li li, #umw-nav li li a, #umw-nav li li a:active, #umw-nav li li a:focus, #umw-nav li li a:hover, #umw-nav li li a:link, #umw-nav li li a:visited, #umw-nav li.sfHover a, #umw-nav li:focus a, #umw-nav li:hover a, #umw-parent-site-title a, #umw-parent-site-title a:focus, #umw-parent-site-title a:hover, .sidebar h4, .umw-content-widgets h4, .umw-magazine-featured-bottom-left .widget-area h4 a,
+.umw-magazine-featured-bottom-leftr h4.widgettitle a, .widget .faculty-bio h4,
+.widget .faculty-topic-area h3, .widget h2, .widget h2 a, .widget h2 a:visited, .widget-area h4 a, .widget-area li a, body, body .gce-event-info p,
+body.full-header #header .searchsubmit:focus, body.full-header #header .searchsubmit:hover, h1, h2, h2 a, h2 a:visited, h3, h4, h5, h6, hr, input, select, textarea {
+    color: #25150c
+}
+
+#home-middle-2 .cs-featuredpost .featured-posts-inner-content p,
+#home-middle-2 .featuredpost p, #inner #subnav li a, #nav .current_page_item li a,
+#nav a, #sidebar .widget .menu .current-menu-item li a, #sidebar .widget ul.menu a,
+#umw-subnav .sub-menu a, .gce-event-info ul li p.gce-tooltip-event span,
+.gce-google-link a, .gce-ical-link a, .widget-area ul li, body div#eps-slideshow-caption-container,
+body div#eps-slideshow-nav-text, body.full-header #header #cse-search-box,
+body.full-header #header #cse-search-box input#s, body.full-header #header .searchform,
+body.full-header #header .searchform input.s, body.full-header #header .searchsubmit {
+    color: #3f454f
+}
+
+.author-box, .sticky, .taxonomy-description, .wp-caption, blockquote,
+input, select, textarea {
+    background-color: #c9cac2;
+    border: 1px solid #25150c
+}
+
+#sidebar h4.widgettitle, hr {
+    background: #c9cac2
+}
+
+#header #umw-title-area .wrap, #header>.wrap, #inner, .wrap {
+    background: #fff
+}
+
+#header #global-header .wrap {
+    background: #002b5a
+}
+
+#footer, body .umw-helpful-links {
+    background: #c9cac2;
+    color: #002b5a
+}
+
+#footer *, body .umw-helpful-links * {
+    color: #002b5a
+}
+
+#footer a:focus, #footer a:hover, body .umw-helpful-links a:focus, body .umw-helpful-links a:hover {
+    color: #25150c
+}
+
+#wrap, body {
+    background: #3f454f
+}
+
+#umw-nav .umw-helpful-links .umw-tools .genericon, .umw-helpful-links .umw-tools .genericon {
+    color: #002b5a
+}
+
+#umw-magazine-featured-top h4.widgettitle, .umw-magazine-featured-bottom-left h4.widgettitle,
+.umw-magazine-featured-bottom-middle h4.widgettitle, .umw-magazine-featured-bottom-right h4.widgettitle {
+    background: #c9cac2
+}
+
+.umw-helpful-links a:focus, .umw-helpful-links a:hover {
+    background: #c9cac2;
+    color: #25150c
+}
+
+#umw-content-footer-widgets .widget {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed #3f454f
+}
+
+#umw-content-footer-widgets .widget.widget-first {
+    border-top: none
+}
+
+#content .entry .entry-content a {
+    text-decoration: none;
+    border-bottom: 1px dashed #002b5a
+}
+
+#content .entry .entry-content a:focus, #content .entry .entry-content a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #002b5a
+}
+
+html body .widget_umwcontentwidget .umw-medium-blue-flag-wrapper {
+    background: 0 0;
+    color: inherit
+}
+
+.home #sidebar .widget_umwcontentwidget h4.widgettitle, .umw-green-flag-wrapper,
+.umw-green-with-gradient-flag-wrapper {
+    background: #78c043 !important;
+    color: #25150c !important
+}
+
+.home #sidebar .widget_umwcontentwidget h4.widgettitle *, .umw-green-flag-wrapper *,
+.umw-green-with-gradient-flag-wrapper * {
+    color: #25150c !important
+}
+
+.umw-bright-blue-flag-wrapper {
+    background: #c9cac2 !important;
+    color: #002b5a !important
+}
+
+.umw-bright-blue-flag-wrapper * {
+    color: #002b5a !important
+}
+
+.umw-medium-blue-flag-wrapper, .umw-medium-blue-with-gradient-flag-wrapper {
+    background: #3db8d3 !important;
+    color: #25150c !important
+}
+
+.umw-medium-blue-flag-wrapper *, .umw-medium-blue-with-gradient-flag-wrapper * {
+    color: #25150c !important
+}
+
+#home-middle .accordion .accordion-item, .umw-dark-blue-flag-wrapper,
+.umw-dark-blue-with-gradient-flag-wrapper {
+    background: #002b5a !important;
+    color: #c9cac2 !important
+}
+
+#home-middle .accordion .accordion-item *, .umw-dark-blue-flag-wrapper *,
+.umw-dark-blue-with-gradient-flag-wrapper * {
+    color: #c9cac2 !important
+}
+
+#home-middle-2 h4.widgettitle, .umw-orange-flag-wrapper {
+    background: #ff7900 !important;
+    color: #25150c !important
+}
+
+#home-middle-2 h4.widgettitle *, .umw-orange-flag-wrapper * {
+    color: #25150c !important
+}
+
+.umw-gold-flag-wrapper, .umw-gold-with-gradient-flag-wrapper {
+    background: #f5cf47 !important;
+    color: #25150c !important
+}
+
+.umw-gold-flag-wrapper *, .umw-gold-with-gradient-flag-wrapper * {
+    color: #25150c !important
+}
+
+.umw-red-flag-wrapper {
+    background: #d12627 !important;
+    color: #fff !important
+}
+
+.umw-red-flag-wrapper * {
+    color: #fff !important
+}
+
+.widget_umwcontentwidget .umw-medium-blue-flag-wrapper {
+    background: none !important
+}
+
+#home-middle-2 .cs-featuredpost .featured-posts-inner-content p.post-info,
+#home-middle-2 .featuredpost p.post-info, #home-middle-2 p.post-info,
+#home-middle-2 p.post-info a {
+    color: #ff7900
+}
+
+
